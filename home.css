@@ -1,0 +1,53 @@
+.logo{
+
+width: 100px;
+height: 100px;
+position: absolute;
+top: 20px;
+left: 2%;}
+
+.py{width: 385px;
+height: 385px;
+position: absolute;
+top: 120px;
+right: 48%;}
+
+
+.js{width:385px;
+height: 385px;
+position: absolute;
+top: 120px;
+right: 28%;}
+
+.be{width: 385px;
+height: 385px;
+position: absolute;
+top: 330px;
+right: 28%;
+
+}
+
+
+.fe{width: 385px;
+height: 385px;
+position: absolute;
+
+
+top: 330px;
+right: 48%;
+
+}
+
+
+.header{
+
+color: #e4e4e6;
+position: absolute;
+top: 70px;
+left:23%;
+font-size: 24px;
+font-style:normal;
+line-height: 1.65;
+
+}
+

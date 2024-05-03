@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <meta charset="UTF-8">
+
+    <asp:ContentPlaceHolder id="title" runat="server">
+    </asp:ContentPlaceHolder>
+     <link href="css/backend.css" rel="stylesheet" />
+    <link href="css/frontend.css" rel="stylesheet" />
+    <link href="css/python.css" rel="stylesheet" />
+    <link href="css/js.css" rel="stylesheet" />
+
+</head>
+ 
+
+<body>
+
+    <form id="form1" runat="server">
+        <header>
+    <img class="logo"   src="logo.png">
+    <P class="head"> Roadmap Traker</p>
+
+
+
+            <asp:ContentPlaceHolder ID="full_course" runat="server"></asp:ContentPlaceHolder>
+    
+        
+    </header>
+    
+      <asp:ContentPlaceHolder ID="course_name" runat="server"></asp:ContentPlaceHolder>
+   
+
+    <p class="discription">Step by step guide to becoming a modern developer in 2022</p>
+
+        <asp:ContentPlaceHolder ID="back" runat="server"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="w3school" runat="server"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="github" runat="server"></asp:ContentPlaceHolder>
+       
+    
+   
+
+        <asp:ContentPlaceHolder ID="hugeimg" runat="server"></asp:ContentPlaceHolder>
+
+
+    <div class="open" >Open Source</div>
+    <p class="source">The project is OpenSource,<a class="open_link" href="https://github.com/search?o=desc&q=stars%3A%3E100000&s=stars&type=Repositories">7th most starred project on GitHub</a> and <br>is visited by hundreds of thousands of developers every month.</p>
+
+    </form>
+</body>
+</html>
